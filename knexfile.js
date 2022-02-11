@@ -1,3 +1,5 @@
+const { default: axios } = require("axios")
+
 const commonConfig = {
   client: "sqlite3",
   useNullAsDefault: true,
@@ -28,3 +30,4 @@ module.exports = {
     },
   }
 }
+
