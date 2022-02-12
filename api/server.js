@@ -2,7 +2,7 @@ const express = require('express');
 const server = express();
 
 const { logger } = require('./middleware/middleware') //need to set up middlware
-const projecstRouter = require('./projects/projects-model')
+const projectsRouter = require('./projects/projects-model')
 
 
 server.use(express.json())
