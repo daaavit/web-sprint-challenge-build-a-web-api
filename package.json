@@ -18,7 +18,8 @@
         "i": "^0.3.7",
         "knex": "0.95.11",
         "nanoid": "^3.2.0",
-        "sqlite3": "5.0.2"
+        "sqlite3": "5.0.2",
+        "yup": "^0.32.11"
     },
     "devDependencies": {
         "cross-env": "7.0.3",
